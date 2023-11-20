@@ -1,38 +1,56 @@
-<DOCTYPE html>
-  <html lang="en">
-    <head>
-      <style>
-        .center {
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-                  width: 80%;
-                }
-      </style>
-      <title>
-      Personal Website
-      </title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
 
-    <body>
-      <body style="backgroup-colour:WHITE">
-        <body TEXT="BLACK">
-          <main>
-            <h1 style="font-size: 64px;
-              font-family: Roboto">
-              <center>
-                Vlad Bors
-              </center>
-            </h1>
-            <img src="mountain.jpg"
-              alt="image 1"
-              class="center"
-            </img>
-             <h2 style="font-size: 42px;
-              font-family: Roboto">
-               <center>
-                 About me
-               </center>
-             </h2>
-          </main>
-    </body>
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 30%; /* Adjust the width as needed */
+    }
+  </style>
+  <title>Personal Website</title>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1 style="font-size: 64px; font-family: 'Arial', sans-serif; text-align: center;">
+      Vlad Bors
+    </h1>
+
+    <div class="image-container">
+      <div>
+        <img src="forest.jpg" alt="Forest" class="center">
+        <p style="text-align: center;">Forest</p>
+      </div>
+
+      <div>
+        <img src="mountain.jpg" alt="Mountain" class="center">
+        <p style="text-align: center;">Mountain</p>
+      </div>
+
+      <div>
+        <img src="beach.jpg" alt="Beach" class="center">
+        <p style="text-align: center;">Beach</p>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
